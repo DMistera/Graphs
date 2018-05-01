@@ -15,22 +15,10 @@ namespace Graphs {
         public NextListGraph() : base() {
         }
 
-        public override bool Arc(int from, int to) {
-            foreach(int i in vertices[from]) {
-                if(i == to) {
-                    return true;
-                }
-            }
-            return false;
-        }
-
         public override List<int> GetNextList(int vertex) {
             return vertices[vertex];
         }
 
-        public override List<int> GetPrevList(int vertex) {
-            throw new NotImplementedException();
-        }
 
         protected override void Init(bool[,] array) {
             vertices = new List<int>[size];

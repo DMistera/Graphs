@@ -16,8 +16,6 @@ namespace Graphs {
         }
 
         public abstract List<int> GetNextList(int vertex);
-        public abstract List<int> GetPrevList(int vertex);
-        public abstract bool Arc(int vertex1, int vertex2);
         public abstract List<Arc> GetArcs();
         public abstract string GetName();
         protected abstract void Init(bool[,] array);
