@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="Source\Graphics\Window.cs" />
     <Compile Include="Source\Graphs\Arc.cs" />
+    <Compile Include="Source\Graphs\ArcListGraph.cs" />
     <Compile Include="Source\Graphs\Graph.cs" />
     <Compile Include="Source\Graphs\NextListGraph.cs" />
     <Compile Include="Source\Graphs\StandardGraph.cs" />

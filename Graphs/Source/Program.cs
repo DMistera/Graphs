@@ -70,7 +70,7 @@ namespace Graphs {
 
         private void Ex4() {
             Console.WriteLine("Exercise 4");
-            const int measures = 20;
+            const int measures = 14;
             for (int j = 0; j < 2; j++) {
                 float d = j == 0 ? 0.2f : 0.4f;
                 Console.WriteLine("Density: " + d);
@@ -84,7 +84,7 @@ namespace Graphs {
                     plotDatas.Add(new Graphics.Graph.Data(g.GetName()));
                 }
                 for (int i = 0; i < measures; i++) {
-                    int n = (i + 1) * 200;
+                    int n = (i + 1) * 100;
                     bool[,] data = GenerateGraph(n, d);
                     for(int k = 0; k < graphs.Count; k++) {
                         Graph g = graphs.ElementAt(k);

@@ -57,7 +57,7 @@ namespace Graphs {
         }
 
         public override string GetName() {
-            return "List of next vertices";
+            return "List of Next Vertices";
         }
     }
 }
